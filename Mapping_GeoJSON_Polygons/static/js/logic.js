@@ -34,8 +34,8 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-// Accessing the Toronto airline routes GeoJSON URL.
-let torontoData = "https://raw.githubusercontent.com/dkristek/Mapping_Earthquakes/main/torontoRoutes.json";
+// Accessing the Toronto neighborhoods GeoJSON URL.
+let torontoHoods = "https://github.com/dkristek/Mapping_Earthquakes/blob/main/torontoNeighborhoods.json"
 
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);

@@ -14,3 +14,12 @@ simple_map/
 majorAirports.Json
 torontoNeighborhoods.Json
 torontoRoutes.Json
+
+#un-needed files
+cities.js
+logicStep1.js
+logicStep2.js
+logicStep3.js
+logicStep4.js
+logicStep5.js
+major_eq_starter_logic.js
